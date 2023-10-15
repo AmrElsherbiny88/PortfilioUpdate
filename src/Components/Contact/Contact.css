@@ -1,0 +1,172 @@
+.pulse
+{
+	
+	transform: translate(-10%, -10%);
+	width: 80px;
+	height: 80px;
+	background: #58ea00;
+	color: #fff;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 84px;
+	font-size:  48px;
+    cursor: pointer;
+	
+}
+
+.pulse:before,
+.pulse:after
+{
+    content: '';
+    display: block;
+    position: absolute;
+    border: 50%;
+    border: 1px solid #58ea00;
+    left: -20px;
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+    animation: animate 1.5s linear infinite; 
+    opacity: 0;
+   
+}
+
+.pulse:after {
+    animation-delay: .5s;
+}
+
+@keyframes animate 
+{
+    0%
+    {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        
+        opacity: 1;
+    }
+    100%
+    {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+    
+}
+
+
+.pulse2
+{
+	
+	transform: translate(-10%, -10%);
+	width: 80px;
+	height: 80px;
+	background: #0028a0;
+	color: #fff;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 84px;
+	font-size:  48px;
+    cursor: pointer;
+	
+}
+
+.pulse2:before,
+.pulse2:after
+{
+    content: '';
+    display: block;
+    position: absolute;
+    border: 50%;
+    border: 1px solid #0028a0;
+    left: -20px;
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+    animation: animate2 1.5s linear infinite; 
+    opacity: 0;
+   
+}
+
+.pulse2:after {
+    animation-delay: .5s;
+}
+
+@keyframes animate2 
+{
+    0%
+    {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        
+        opacity: 1;
+    }
+    100%
+    {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+    
+}
+
+
+.pulse3
+{
+	
+	transform: translate(-10%, -10%);
+	width: 80px;
+	height: 80px;
+	background: rgb(65, 65, 65);
+	color: #fff;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 84px;
+	font-size:  48px;
+    cursor: pointer;
+	
+}
+
+.pulse3:before,
+.pulse3:after
+{
+    content: '';
+    display: block;
+    position: absolute;
+    border: 50%;
+    border: 1px solid rgb(65, 65, 65);
+    left: -20px;
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+    animation: animate3 1.5s linear infinite; 
+    opacity: 0;
+   
+}
+
+.pulse3:after {
+    animation-delay: .5s;
+}
+
+@keyframes animate3 
+{
+    0%
+    {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        
+        opacity: 1;
+    }
+    100%
+    {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+    
+}

@@ -1,0 +1,58 @@
+.progress-bar1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, rgb(0, 0, 0) 79%, transparent 80% 100%),
+      conic-gradient(orange 100%, pink 0);    
+  }
+
+  .progress-bar2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, rgb(0, 0, 0) 79%, transparent 80% 100%),
+      conic-gradient(rgb(0, 115, 255) 100%, pink 0);    
+  }
+
+  .progress-bar3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, rgb(0, 0, 0) 79%, transparent 80% 100%),
+      conic-gradient(rgb(238, 255, 0) 95%, rgb(255, 251, 199) 0);    
+  }
+
+  .progress-bar4 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, rgb(0, 0, 0) 79%, transparent 80% 100%),
+      conic-gradient(rgb(3, 197, 211) 95%, rgb(186, 255, 253) 0);    
+  }
+
+  .progress-bar5 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, rgb(0, 0, 0) 79%, transparent 80% 100%),
+      conic-gradient(purple 100%, rgb(186, 255, 253) 0);    
+  }
+
+  .progress-bar6 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, rgb(0, 0, 0) 79%, transparent 80% 100%),
+      conic-gradient(grey 85%, rgb(243, 243, 243) 0);    
+  }
+
+
+  .progg{
+    visibility: hidden;
+  }
